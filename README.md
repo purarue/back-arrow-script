@@ -1,5 +1,9 @@
 An embeddable back arrow script tag.
 
+<image src="https://github.com/seanbreckenridge/back-arrow-script/blob/master/example.png?raw=true" />
+
+(on <https://sean.fish/feed/>)
+
 Made this for a couple of my websites which are hosted as subprojects on my website
 
 To build, `yarn && yarn check && yarn build`, outputs to `back-arrow-bundle.js`
@@ -19,7 +23,7 @@ To configure, uses meta tags, like:
   ...
   <!-- on hover, where to link to, and the color -->
   <meta property="ba:title" content="back home" />
-  <meta property="ba:url" content="/" />
+  <meta property="ba:url" content="https://mywebsite.com/home" />
   <meta property="ba:color" content="#fd6c6c" />
 </head>
 
