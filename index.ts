@@ -54,9 +54,5 @@ margin-left: 1rem;
     style.appendChild(document.createTextNode(css));
   };
 
-  if (document.addEventListener) {
-    document.addEventListener("DOMContentLoaded", createBackArrow, false);
-  } else {
-    window.onload = createBackArrow;
-  }
+  document.addEventListener("DOMContentLoaded", createBackArrow, false);
 })();
