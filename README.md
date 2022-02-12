@@ -14,6 +14,8 @@ Add that as a script tag to the bottom of your `<body>`
 <script src="/path/to/back-arrow-bundle.js"></script>
 ```
 
+That adds the back arrow to the top left of the page
+
 I host a version at <https://sean.fish/p/back-arrow-bundle.js>
 
 To configure, uses meta tags, like:
