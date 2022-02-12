@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "check": "tsc -noEmit index.ts",
+    "build": "esbuild index.ts --minify --bundle --outfile=back-arrow-bundle.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.21",
+    "tsc": "^2.0.4"
+  },
+  "name": "back-arrow-script",
+  "version": "0.0.1",
+  "description": "one line to add a back to home button to an HTML page",
+  "main": "index.ts",
+  "repository": "https://github.com/seanbreckenridge/back-arrow-script",
+  "author": "Sean Breckenridge <seanbrecke@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  }
+}
