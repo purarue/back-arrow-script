@@ -1,7 +1,7 @@
 {
   "scripts": {
     "check": "tsc -noEmit index.ts",
-    "build": "esbuild index.ts --minify --bundle --outfile=back-arrow-bundle.js"
+    "build": "esbuild index.ts --minify --bundle --format=iife --outfile=back-arrow-bundle.js"
   },
   "devDependencies": {
     "esbuild": "^0.14.21",
