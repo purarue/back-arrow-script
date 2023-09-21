@@ -29,7 +29,7 @@ const createBackArrow = () => {
   // add div to top level link
   const link = document.createElement("a");
   link.href = fetchUrl();
-  link.append(div)
+  link.append(div);
 
   document.body.insertBefore(link, document.body.firstChild);
 
