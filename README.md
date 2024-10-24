@@ -1,6 +1,6 @@
 An embeddable back arrow script tag.
 
-<image src="https://github.com/seanbreckenridge/back-arrow-script/blob/master/example.png?raw=true" />
+<image src="https://github.com/purarue/back-arrow-script/blob/master/example.png?raw=true" />
 
 (on <https://sean.fish/feed/>)
 
@@ -30,7 +30,7 @@ To configure, uses meta tags, like:
 </head>
 ```
 
-To customize positioning further, can overwrite [the default CSS](https://github.com/seanbreckenridge/back-arrow-script/blob/9c0f9b8acbad38cae2a4fbb86ed888ce82de4137/index.ts#L36-L49) using `!important`, like:
+To customize positioning further, can overwrite [the default CSS](https://github.com/purarue/back-arrow-script/blob/9c0f9b8acbad38cae2a4fbb86ed888ce82de4137/index.ts#L36-L49) using `!important`, like:
 
 ```css
 .back-arrow {
