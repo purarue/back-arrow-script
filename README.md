@@ -2,7 +2,7 @@ An embeddable back arrow script tag.
 
 <image src="https://github.com/purarue/back-arrow-script/blob/master/example.png?raw=true" />
 
-(on <https://sean.fish/feed/>)
+(on <https://purarue.xyz/feed/>)
 
 Made this for a couple of my websites which are hosted as subprojects on my website
 
@@ -16,7 +16,7 @@ Add that as a script tag to the bottom of your `<body>`
 
 That adds the back arrow to the top left of the page
 
-I host a version at <https://sean.fish/p/back-arrow-bundle.js>
+I host a version at <https://purarue.xyz/p/back-arrow-bundle.js>
 
 To configure, uses meta tags, like:
 
