@@ -6,7 +6,7 @@ An embeddable back arrow script tag.
 
 Made this for a couple of my websites which are hosted as subprojects on my website
 
-To build, `yarn && yarn check && yarn build`, outputs to `back-arrow-bundle.js`
+To build, `npm install && npm run check && npm run build`, outputs to `back-arrow-bundle.js`
 
 Add that as a script tag to the bottom of your `<body>`
 
