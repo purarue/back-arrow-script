@@ -4,8 +4,8 @@
     "build": "esbuild index.ts --minify --bundle --format=iife --outfile=back-arrow-bundle.js"
   },
   "devDependencies": {
-    "esbuild": "^0.14.21",
-    "typescript": "^4.9.5"
+    "esbuild": "0.14.21",
+    "typescript": "4.9.5"
   },
   "name": "back-arrow-script",
   "version": "0.0.1",
